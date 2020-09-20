@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Đặt vé",
+    "route": "booking",
+    "icon": "calendar",
+    "active": true
+  },
+  {
+    "name": "Tất cả vé",
+    "route": "allTicket",
+    "icon": "file-text"
+  },
+  {
+    "name": "QL hoàn tiền",
+    "route": "refundRequests",
+    "icon": "usd"
+  },
+  {
+    "name": "QL chuyển khoản",
+    "route": "transferManager",
+    "icon": "bank"
+  },
+  {
+    "name": "Công cụ",
+    "route": "tools",
+    "icon": "wrench",
+    "subRoutes": [
+      {
+        "name": "SMS",
+        "route": "tools/sms",
+        "icon": ""
+      },
+      {
+        "name": "Email",
+        "route": "tools/email",
+        "icon": ""
+      },
+      {
+        "name": "Coupon",
+        "route": "tools/Coupon",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "name": "QL cấu hình",
+    "route": "react-version",
+    "icon": "gear"
+  },
+  {
+    "name": "Tài khoản",
+    "route": "account",
+    "icon": "user",
+    "subRoutes": [
+      {
+        "name": "Tính năng mới cập nhật",
+        "route": "user/new-features",
+        "icon": ""
+      },
+      {
+        "name": "Hướng dẫn sử dụng",
+        "route": "user/faq",
+        "icon": ""
+      },
+      {
+        "name": "Thông tin liên hệ đối tác",
+        "route": "user/partner-contact",
+        "icon": ""
+      },
+      {
+        "name": "Đổi mật khẩu",
+        "route": "user/change-password",
+        "icon": ""
+      },
+      {
+        "name": "Đăng xuất",
+        "route": "user/logout",
+        "icon": ""
+      }
+    ]
+  }
+]

@@ -1,21 +1,17 @@
 import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
-import LaunchScreen from '../Containers/LaunchScreen';
 
-import styles from './Styles/NavigationStyles';
+import BookingScreenNavigation from './BookingScreenNavigation';
 
 // Manifest of possible screens
 const PrimaryNav = createStackNavigator(
   {
-    LaunchScreen: {screen: LaunchScreen},
+    BookingScreen: {screen: BookingScreenNavigation},
   },
   {
     // Default config for all screens
     headerMode: 'none',
-    initialRouteName: 'LaunchScreen',
-    navigationOptions: {
-      headerStyle: styles.header,
-    },
+    initialRouteName: 'BookingScreen',
   },
 );
 

@@ -24,7 +24,9 @@ class ReduxNavigation extends React.Component {
       // change to whatever is your first screen, otherwise unpredictable results may occur
       if (
         nav.routes.length === 1 &&
-        nav.routes[0].routeName === 'LaunchScreen'
+        ((nav.routes[0].routes && nav.routes[0].routes.length === 1) ||
+          !nav.routes[0].routes) &&
+        nav.routes[0].routeName === 'BookingScreen'
       ) {
         return false;
       }

@@ -1,0 +1,49 @@
+[
+  {
+    "company": "Ngọc Ánh (Sài Gòn)",
+    "price": 270000,
+    "departure_time": "21:00",
+    "duration": "06:10",
+    "departure_place": "Vp Hồ Chí Minh",
+    "arrival_place": "Bến xe Bạc Liêu",
+    "vehicle_type": "limousine",
+    "total_seats": 22,
+    "available_seats": 14,
+    "payment_method": "VXR và nhà xe thu tiền",
+    "seatTemplate": [
+      [
+        ["B1", "B2", "B3", "B4"],
+        ["B1", "B2", "B3", "B4"],
+        ["C4", "C3", "C3", "C1"]
+      ],
+      [
+        ["A1", "A2", "A3", "A4"],
+        ["A1", "A2", "A3", "A4"]
+      ]
+    ]
+  },
+  {
+    "company": "Trí Nhân Limousine",
+    "price": 230000,
+    "departure_time": "20:20",
+    "duration": "06:15",
+    "departure_place": "Cây Xăng (Đối diện Bến xe Miền Tây)",
+    "arrival_place": "Hòa Bình",
+    "vehicle_type": "limousine",
+    "total_seats": 22,
+    "available_seats": 22,
+    "payment_method": "VXR không được phép thu tiền"
+  },
+  {
+    "company": "Anh Tuấn (Bạc Liêu)",
+    "price": 260000,
+    "departure_time": "22:00",
+    "duration": "06:30",
+    "departure_place": "Vp Sài Gòn",
+    "arrival_place": "Bến xe Bạc Liêu (GOC)",
+    "vehicle_type": "limousine",
+    "total_seats": 22,
+    "available_seats": 20,
+    "payment_method": "Bắt buộc VXR thu tiền"
+  }
+]

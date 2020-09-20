@@ -1,0 +1,42 @@
+{
+  "companyName":{
+    "options": [
+      {
+        "name": "Anh Tuấn (Bạc Liêu)",
+        "value": "Anh Tuấn (Bạc Liêu)"
+      }
+    ]
+  },
+  "pickupPlace": {
+    "options": [
+      {
+        "name": "Sài Gòn",
+        "value": "Sài Gòn"
+      }
+    ]
+  },
+  "departureTime":{
+    "options": [
+      {
+        "name": "17:00",
+        "value": "17:00"
+      }
+    ]
+  },
+  "departurePlace": {
+    "options": [
+      {
+        "name": "Vũng Tàu",
+        "value": "Vũng Tàu"
+      }
+    ]
+  },
+  "vehicleType": {
+    "options": [
+      {
+        "name": "Limousine",
+        "value": "Limousine"
+      }
+    ]
+  }
+}
